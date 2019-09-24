@@ -1,6 +1,6 @@
 # syncthing_ignore
 
-``
+```
 // From Windows
 **(?d)$RECYCLE.BIN
 **(?d)System Volume Information
@@ -76,4 +76,4 @@
 
 //Resilio sync
 *(?d).sync
-``
+```
