@@ -1,14 +1,15 @@
 # syncthing_ignore
 
 ```
+
 // From Windows
-**(?d)$RECYCLE.BIN
-**(?d)System Volume Information
-**(?d)$WINDOWS.~BT
-**(?d)pagefile.sys
-**(?d)desktop.ini
-**(?d)Thumbs.db
-**(?d)ehthumbs.db
+**(?d)(?i)$RECYCLE.BIN
+**(?d)(?i)System Volume Information
+**(?d)(?i)$WINDOWS.~BT
+**(?d)(?i)pagefile.sys
+**(?d)(?i)desktop.ini
+**(?d)(?i)Thumbs.db
+**(?d)(?i)ehthumbs.db
 *~
 
 // From OS X
@@ -36,44 +37,44 @@
 
 // Generic stuff
 **(?d).~***
-**(?d)~.tmp*
+**(?d)(?i)~.tmp*
 **(?d)~$***
-**(?d).ac$*
-**(?d).as$*
-**(?d).asd*
-**(?d).crdownload*
-**(?d).download*
-**(?d).dwl*
-**(?d).dwl2*
-**(?d).filepart*
-**(?d).laccdb*
-**(?d).ldb*
-**(?d).lck*
-**(?d).lock*
-**(?d).part
-**(?d).part*
-**(?d).partial*
-**(?d).sv$*
-**(?d).temp*
-**(?d).tmp*
-**(?d).!ut*
-**(?d).utpart*
-**(?d)~*
-**(?d).~lock.*
-**(?d).filepart
-**(?d).csync_journal.db
-**(?d).csync_journal.db.tmp
-**(?d).swn
-**(?d).swp
-**(?d).swo
-**(?d).dropbox
-**(?d).dropbox.attr
-**(?d).crdownload
-**(?d)@eaDir
-**(?d)@SynoResource
-**(?d).@__thumb
-**(?d).thumbnails
+**(?d)(?i).ac$*
+**(?d)(?i).as$*
+**(?d)(?i).asd*
+**(?d)(?i).crdownload*
+**(?d)(?i).download*
+**(?d)(?i).dwl*
+**(?d)(?i).dwl2*
+**(?d)(?i).filepart*
+**(?d)(?i).laccdb*
+**(?d)(?i).ldb*
+**(?d)(?i).lck*
+**(?d)(?i).lock*
+**(?d)(?i).part
+**(?d)(?i).part*
+**(?d)(?i).partial*
+**(?d)(?i).sv$*
+**(?d)(?i).temp*
+**(?d)(?i).tmp*
+**(?d)(?i).!ut*
+**(?d)(?i).utpart*
+**(?d)(?i)~*
+**(?d)(?i).~lock.*
+**(?d)(?i).filepart
+**(?d)(?i).csync_journal.db
+**(?d)(?i).csync_journal.db.tmp
+**(?d)(?i).swn
+**(?d)(?i).swp
+**(?d)(?i).swo
+**(?d)(?i).dropbox
+**(?d)(?i).dropbox.attr
+**(?d)(?i).crdownload
+**(?d)(?i)@eaDir
+**(?d)(?i)@SynoResource
+**(?d)(?i).@__thumb
+**(?d)(?i).thumbnails
 
 //Resilio sync
-*(?d).sync
+*(?d)(?i).sync
 ```
