@@ -2,6 +2,7 @@
 
 ```
 
+
 // From Windows
 **(?d)(?i)$RECYCLE.BIN
 **(?d)(?i)System Volume Information
@@ -36,9 +37,9 @@
 **(?d).local/share/trash
 
 // Generic stuff
-**(?d).~***
+**(?d).~*
 **(?d)(?i)~.tmp*
-**(?d)~$***
+**(?d)~$*
 **(?d)(?i).ac$*
 **(?d)(?i).as$*
 **(?d)(?i).asd*
