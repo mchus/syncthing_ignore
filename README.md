@@ -1,8 +1,6 @@
 # syncthing_ignore
 
 ```
-
-
 // From Windows
 (?d)(?i)$RECYCLE.BIN
 (?d)(?i)System Volume Information
@@ -11,17 +9,8 @@
 (?d)(?i)desktop.ini
 (?d)(?i)Thumbs.db
 (?d)(?i)ehthumbs.db
-(?d)(?i)$RECYCLE.BIN
-(?d)(?i)System Volume Information
-(?d)(?i)$WINDOWS.~BT
-(?d)(?i)pagefile.sys
-(?d)(?i)desktop.ini
-(?d)(?i)Thumbs.db
-(?d)(?i)ehthumbs.db
 *~
-
 // From OS X
-
 (?d)Icon?
 (?d)Icon\r
 (?d).DS_Store
@@ -38,16 +27,10 @@
 (?d).Trash-*
 (?d)._*
 (?d).iCloud
-
 // From Linux
 (?d)lost+found
 (?d).gvfs
 (?d).local/share/trash
-(?d)lost+found
-(?d).gvfs
-(?d).local/share/trash
-
-
 // Generic stuff
 (?d).~*
 (?d)(?i)~.tmp*
@@ -87,7 +70,6 @@
 (?d)(?i)@SynoResource
 (?d)(?i).@__thumb
 (?d)(?i).thumbnails
-
 //Resilio sync
 (?d)(?i).sync
 ```
