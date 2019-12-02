@@ -72,6 +72,7 @@
 (?d)(?i).thumbnails
 //Resilio sync
 (?d)(?i).sync
+(?d)(?i).rsls
 //Adroid
 (?d)(?i)*.thumbnail
 ```
